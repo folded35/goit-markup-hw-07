@@ -1,0 +1,41 @@
+.about {
+        display: flex;
+        padding: 0;
+
+        list-style: none;
+}
+
+.about .about__item+.about__item {
+    margin-left: 30px;
+}
+
+.about__picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    width: 270px;
+
+    margin-bottom: 30px;
+
+    background-color: #F5F4FA;
+    border-radius: 4px;
+
+}
+
+.about__icon {
+    width: 70px;
+    height: 70px;
+}
+
+.about__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.15;
+    color: var(--primary-black-color);
+    margin-bottom: 10px;
+}
+
+.about__text {
+    line-height: 1.7;
+}
